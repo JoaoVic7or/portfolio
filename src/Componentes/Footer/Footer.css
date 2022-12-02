@@ -1,0 +1,31 @@
+@import url('https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css');
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #1100ff00;
+    text-align: center;  
+    right: 0;
+    left: 0;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_Container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.Footer__icons .colored{
+    font-size: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+footer p {
+    margin-right: 10px;
+}

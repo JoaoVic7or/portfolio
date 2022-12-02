@@ -1,0 +1,43 @@
+header{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #fff;
+    margin-left: 10px;
+    user-select: none;
+}
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+header li {
+    margin: 0 20px;
+    cursor: pointer;
+    align-items: center;
+    display: inline-block;
+}
+header img{
+    width: 20px;
+    position: relative;
+    top: 3px;
+    left: -6px;
+}
+
+.header__Menu{
+    display: block;
+}
+
+.linkDestacado{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 780px) {
+    .header__Menu{
+        display: none;
+    }
+}

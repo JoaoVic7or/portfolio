@@ -1,0 +1,34 @@
+.container{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.container__imagem{
+    width: 50%;
+    height: 100%;
+    box-shadow: 1px 0 10px #000;
+    background-color: rgba(4, 0, 255, 0.76);
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__imagem img{
+    height: 70%;
+}
+
+.container__linguagem{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 1.4rem;
+}
