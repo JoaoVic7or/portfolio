@@ -3,7 +3,6 @@ import Inicio from './Paginas/Inicio'
 import Projetos from "./Paginas/Projetos"
 import Conhecimentos from './Paginas/Conhecimentos'
 import Header from './Componentes/Header'
-import Footer from './Componentes/Footer'
 
 
 export default function AppRoutes() {

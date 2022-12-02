@@ -1,5 +1,4 @@
 import React from 'react'
-import CardsProjetos from '../../Componentes/CardsProjetos'
 import styles from './Projetos.module.css'
 
 export default function Projetos() {
