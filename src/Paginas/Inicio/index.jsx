@@ -1,9 +1,13 @@
 import React from 'react'
-import SobreInicial from '../../Componentes/SobreInicial'
+import {useEffect} from 'react';
+import QuemSouEu from '../../Componentes/QuemSouEu'
 import './Pagina.css'
 
-export default function Pagina() {
+export default function Pagina(props) {
+  useEffect(() => {document.title = props.title})
   return (
-    <SobreInicial />
+    <>
+        <QuemSouEu />
+    </>
   )
 }

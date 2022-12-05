@@ -6,8 +6,8 @@ export default function Footer() {
     <footer>
       <div className='footer_Container'>
           <div className='Footer__icons'>
-              <a><i className="devicon-linkedin-plain colored"></i></a>
-              <a><i className="devicon-github-original colored"></i></a>
+              <a href='https://linkedin.com/in/joão-victor-de-assis-236957131' target='__blank'><i className="devicon-linkedin-plain colored"></i></a>
+              <a href='/#'><i className="devicon-github-original colored"></i></a>
           </div>
             <p>Copyright 2022 - joaochacon.dev</p>
       </div>

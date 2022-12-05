@@ -10,7 +10,7 @@ export default function SobreInicial() {
         </div>
         <div className='SobreInicial__conteudo'>
             <h2>Olá, meu nome é<br/> João Victor Chacon</h2>
-            <p>Estou cursando atualmente o 4° semestre de Análise e Desenvolvimento de Sistemas. Tive um amor a primeira vista pela área de front-end assim que comecei o curso, e tenho como meta trabalhar nessa área.</p>
+            <p>Estou cursando atualmente o 4° semestre de Análise e Desenvolvimento de Sistemas. Tive um amor a primeira vista pela área de front-end assim que comecei o curso, e tenho como meta trabalhar nessa área. FALTA ADICIONAR MAIS COISAS</p>
         </div>
     </div>
   )

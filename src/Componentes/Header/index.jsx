@@ -5,12 +5,14 @@ import sobre from './img/info.svg';
 import conhecimentos from './img/conhecimentos.svg';
 import contato from './img/mail.svg';
 import MenuLink from '../MenuLink';
+import MenuResponsivo from '../MenuResponsivo';
 
 export default function Header() {
     return (
         <header>
-            <h1>&lt;joaochacon /&gt;</h1>
+            <h1>&lt;joaochacon /&gt;</h1> 
             <nav className={styles.header__Menu}>
+                <MenuResponsivo />
                 <ul>
                     <li>
                         <img src={sobre} alt='Sobre' />

@@ -3,6 +3,7 @@ import Inicio from './Paginas/Inicio'
 import Projetos from "./Paginas/Projetos"
 import Conhecimentos from './Paginas/Conhecimentos'
 import Header from './Componentes/Header'
+import Footer from './Componentes/Footer'
 
 
 export default function AppRoutes() {
@@ -11,12 +12,13 @@ export default function AppRoutes() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Inicio/>}/>
-          <Route path="/projetos" element={<Projetos />}/>
-          <Route path="/conhecimentos" element={<Conhecimentos />}/>
+          <Route path="/" element={<Inicio title="João Victor"/>}/>
+          <Route path="/projetos" element={<Projetos title="João Victor | Projetos"/>}/>
+          <Route path="/conhecimentos" element={<Conhecimentos title="João Victor | Conhecimentos"/>}/>
           <Route path="*" element={<div>Página não encontrada</div>}/>
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }

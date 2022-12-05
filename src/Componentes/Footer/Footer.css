@@ -1,13 +1,13 @@
 @import url('https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css');
 
 footer{
-    position: fixed;
+    position: absolute;
     bottom: 0;
     background-color: #1100ff00;
     text-align: center;  
     right: 0;
     left: 0;
-    height: 70px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,6 +17,10 @@ footer{
     display: flex;
     align-items: center;
     gap: 50px;
+}
+
+.footer_Container a {
+    text-decoration: none;
 }
 
 .Footer__icons .colored{

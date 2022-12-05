@@ -8,8 +8,10 @@ export default function CardsProjetos(props) {
                 <img src={props.imagem} alt={props.nome} />
             </div>
             <div className={styles.card}>
-                <h3>{props.nome}</h3>
-                <p>{props.descricao}</p>
+                <div className={styles.card__conteudo}>
+                    <h3>{props.nome}</h3>
+                    <p>{props.descricao}</p>
+                </div>
                 <div className={styles.card__button}>
                     <a href={props.url}>Visitar</a>
                     <a href={props.repo}>Repositório</a>

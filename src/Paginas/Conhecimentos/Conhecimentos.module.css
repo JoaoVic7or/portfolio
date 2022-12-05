@@ -8,20 +8,24 @@
     flex-wrap: wrap;
 }
 
-.container h2 {
+.conhecimentos_h2 {
     font-size: 2rem;
     padding-bottom: 2px;
     border-bottom: 2px solid #fff;
 }
-
+@media screen and (max-width: 950px){
+    .conhecimentos_h2{
+        margin: 26px 10px;
+    }
+}
 .container__conhecimentos{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
-
+/* 
 @media screen and (max-width: 830px) {
     .container{
         flex-direction: column;
@@ -31,4 +35,13 @@
     .container__conhecimentos{
         flex-direction: column;
    }
+} */
+
+@media screen and (max-width: 750px){
+    .container{
+        width: 100%;
+    }
+    .container__conhecimentos{
+        width: 100%;
+    }
 }
