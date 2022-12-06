@@ -5,7 +5,6 @@ import Conhecimentos from './Paginas/Conhecimentos'
 import Header from './Componentes/Header'
 import Footer from './Componentes/Footer'
 
-
 export default function AppRoutes() {
   return(
     <div className="main">

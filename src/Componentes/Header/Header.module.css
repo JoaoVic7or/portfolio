@@ -36,19 +36,6 @@ header img{
 }
 @media screen and (max-width: 780px) {
     .header__Menu ul{
-        position: absolute;
-        right: 10px;
-        background-color: rgb(0, 0, 0);
-        width: 50vw;
-        display: flex;
-        flex-direction: column;
         display: none;
-    }
-    header li {
-        padding: 20px;
-        margin: 0;
-        width: 100%;
-        position: relative;
-        left: -40px;
     }
 }
