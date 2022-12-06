@@ -15,6 +15,7 @@ export default function Conhecimentos(props) {
             <CardsConhecimento nome="HTML" imagem="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"/>
             <CardsConhecimento nome="CSS" imagem="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"/>
             <CardsConhecimento nome="Python" imagem="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+            <CardsConhecimento nome="Git" imagem="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
           </div>
       </div>
     </>
