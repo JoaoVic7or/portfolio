@@ -30,7 +30,6 @@ export default function MenuResponsivo() {
           <MenuLink link="/contato" value="Contato">Contato</MenuLink>
         </li>
       </ul>
-      <p>Ainda não está 100% funcional... em construção</p>
     </Menu>
   )
 }
