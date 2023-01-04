@@ -27,7 +27,7 @@ export default function MenuResponsivo() {
         </li>
         <li>
           <img src={contato} alt='Contato' />
-          <a href='mailto: joaochacon1234@gmail.com'>Contato</a>
+          <MenuLink link="/contato" value="Contato">Contato</MenuLink>
         </li>
       </ul>
       <p>Ainda não está 100% funcional... em construção</p>

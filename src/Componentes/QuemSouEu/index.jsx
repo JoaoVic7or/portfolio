@@ -2,7 +2,7 @@ import React from 'react'
 import './SobreInicial.css'
 import avatar from './avataaars.svg'
 
-export default function SobreInicial() {
+export default function SobreInicial(props) {
   return (
     <div className='SobreInicial'>
         <div className='SobreInicial__imagem'>
@@ -10,7 +10,7 @@ export default function SobreInicial() {
         </div>
         <div className='SobreInicial__conteudo'>
             <h2>Olá, meu nome é<br/> João Victor Chacon</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod enim libero, at mattis odio tincidunt at. Proin ex metus, laoreet quis risus et, scelerisque mattis est. Aliquam erat volutpat. Morbi consectetur porta tellus ut malesuada. Vestibulum pretium arcu nisl. Phasellus malesuada posuere ultricies. Vivamus feugiat euismod velit non auctor. Nulla a semper tortor.</p>
+            <p>Sou desenvolvedor front-end, atualmente estou cursando Análise e Desenvolvimento de Sistemas. Tenho conhecimento em HTML, CSS, Javascript, React e Python. No momento estou buscando uma oportunidade para colocar meus conhecimentos em prática.</p>
         </div>
     </div>
   )

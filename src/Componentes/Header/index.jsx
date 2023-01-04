@@ -28,7 +28,7 @@ export default function Header() {
                     </li>
                     <li>
                         <img src={contato} alt='Contato'/>
-                        <a href='mailto: joaochacon1234@gmail.com'>Contato</a>
+                        <MenuLink link="/contato" value="Contato">Contato</MenuLink>
                     </li>
                 </ul>
             </nav>

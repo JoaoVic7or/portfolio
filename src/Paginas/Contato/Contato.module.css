@@ -1,0 +1,32 @@
+.form_contato {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form_contato input {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+.form_contato textarea {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    height: 100px;
+    resize: none;
+}
+
+.form_contato button {
+    padding: 20px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form_title {
+    font-size: 2rem;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #fff;
+}
