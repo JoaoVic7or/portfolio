@@ -15,7 +15,7 @@ export default function AppRoutes() {
           <Route path="/" element={<Inicio title="João Victor"/>}/>
           <Route path="/projetos" element={<Projetos title="João Victor | Projetos"/>}/>
           <Route path="/conhecimentos" element={<Conhecimentos title="João Victor | Conhecimentos"/>}/>
-          <Route path="/contato" element={<Contato />}/>
+          <Route path="/contato" element={<Contato title="João Victor | Contato"/>}/>
           <Route path="*" element={<div>Página não encontrada</div>}/>
         </Routes>
       </BrowserRouter>

@@ -1,8 +1,10 @@
 import React from 'react'
+import {useEffect} from 'react';
 import styles from './Contato.module.css'
 import emailjs from 'emailjs-com';
 
-export default function Contato() {
+export default function Contato(props) {
+    useEffect(() => {document.title = props.title})
     function sendEmail(e) {
         e.preventDefault();
         emailjs.sendForm('service_hcy36pg', 'template_9khb42c', e.target, 'AwHJDYSAupxN90XCc')
