@@ -13,8 +13,8 @@ export default function CardsProjetos(props) {
                     <p>{props.descricao}</p>
                 </div>
                 <div className={styles.card__button}>
-                    <a href={props.url}>Visitar</a>
-                    <a href={props.repo}>Repositório</a>
+                    <a href={props.url} target="_blank">Visitar</a>
+                    <a href={props.repo} target="_blank">Repositório</a>
                 </div>
             </div>
         </div>
