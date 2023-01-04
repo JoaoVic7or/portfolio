@@ -1,0 +1,11 @@
+.container__paginaError{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container__paginaError span{
+    font-size: 2rem;
+}

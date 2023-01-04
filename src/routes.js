@@ -5,6 +5,7 @@ import Conhecimentos from './Paginas/Conhecimentos'
 import Header from './Componentes/Header'
 import Footer from './Componentes/Footer'
 import Contato from "./Paginas/Contato";
+import PaginaError from './Paginas/PaginaError'
 
 export default function AppRoutes() {
   return(
@@ -16,7 +17,7 @@ export default function AppRoutes() {
           <Route path="/projetos" element={<Projetos title="João Victor | Projetos"/>}/>
           <Route path="/conhecimentos" element={<Conhecimentos title="João Victor | Conhecimentos"/>}/>
           <Route path="/contato" element={<Contato title="João Victor | Contato"/>}/>
-          <Route path="*" element={<div>Página não encontrada</div>}/>
+          <Route path="*" element={<PaginaError/>} />
         </Routes>
       </BrowserRouter>
       <Footer />

@@ -33,3 +33,8 @@ footer{
 footer p {
     margin-right: 10px;
 }
+@media (max-width: 900px){
+    footer p {
+        font-size: 0.9rem;
+    }
+}
